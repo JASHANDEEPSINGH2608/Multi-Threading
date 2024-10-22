@@ -62,3 +62,9 @@ ranges_and_times = [
     (-40, 40, 16, "orchid"),
     (100, 200, 14, "palegreen")
 ]
+```
+# Output
+![image](https://github.com/user-attachments/assets/a201980b-df5c-4435-8968-528a0ad8cca1)
+
+Each number is updated independently without affecting the others, using separate threads. The dashboard remains responsive while all numbers update concurrently.
+
